@@ -1,0 +1,16 @@
+// Colors
+// Primary
+$grayish-blue: hsl(237, 18%, 59%);
+$soft-red: hsl(345, 95%, 68%);
+
+// Neutral
+$white: hsl(0, 0%, 100%);
+$dark-desaturated-blue-1: hsl(236, 21%, 26%);
+$dark-desaturated-blue-2: hsl(240, 21%, 22%); // This color is not have in style-guide.md file
+$very-dark-blue-1: hsl(235, 16%, 14%);
+$very-dark-blue-2: hsl(234, 17%, 12%); // NOTE: mostly black
+
+
+@import "general";
+@import "countdown-timer";
+@import "other";
