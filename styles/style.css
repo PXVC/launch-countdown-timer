@@ -25,6 +25,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .timer-container {
@@ -167,8 +168,6 @@ img[alt='hills'] {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 5%;
   color: white;
 }
 
