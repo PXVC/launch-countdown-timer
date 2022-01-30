@@ -136,7 +136,7 @@ body {
 
 img[alt='hills'] {
   position: absolute;
-  top: 75%;
+  bottom: 0;
   z-index: -99999;
   width: 100vw;
 }
@@ -178,5 +178,51 @@ img[alt='hills'] {
 
 .attribution a:hover {
   color: #fb6087;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    row-gap: 100px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 40px;
+    row-gap: 108px;
+  }
+  .container > h1 {
+    text-align: center;
+    width: 330px;
+    -webkit-transform: translateY(51px);
+            transform: translateY(51px);
+    font-size: 1.7rem;
+    letter-spacing: 0.7rem;
+  }
+  .timer-container {
+    -webkit-column-gap: 1.3rem;
+            column-gap: 1.3rem;
+  }
+  img[alt='hills'] {
+    left: -120%;
+    z-index: -99999;
+    width: 230vw;
+  }
+  .timer {
+    width: 70px;
+    height: 64.4px;
+  }
+  .black-dot::before {
+    -webkit-transform: translateX(63px);
+            transform: translateX(63px);
+  }
+  .timer-display {
+    font-size: 3.4rem;
+    margin-top: -37px;
+  }
+  .timer-text {
+    font-size: 0.77rem;
+    letter-spacing: 0.34rem;
+    -webkit-transform: translateY(1.2rem);
+            transform: translateY(1.2rem);
+  }
 }
 /*# sourceMappingURL=style.css.map */
