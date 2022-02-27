@@ -3,7 +3,7 @@ const countdown = () => {
 	let now = new Date().getTime();
 	
 	if (now >= endDay) {
-		changeDate = endDay + 1000 * 60 * 60 * 24 * 10;
+		changeDate = endDay + 1000 * 60 * 60 * 24 * 50;
 		endDay = new Date(changeDate).getTime();
 	}
 	
